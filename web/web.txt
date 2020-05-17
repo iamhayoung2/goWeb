@@ -1,0 +1,22 @@
+HTML 
+- Hyper Text Markup Languate
+-- 하이퍼 텍스트 ? 하이퍼링크를 가진 텍스트 
+
+HTTP :
+- HYPER Text Transfer protocal :
+-- 하이퍼 텍스트를 전송할지에 대한 약속
+-- how to Request, Response
+
+시간이 지날 수록
+"상호작용" "동적web"이 중요해짐
+
+
+과거에는 Server Rendering 
+- request를 보내면 server가 html 텍스트를 만들어서 client에게 Response
+현재 Client Rendering
+- request를 보내면 server가 html 텍스트를 만드는데, 틀만 제공.
+client가 부분적으로 채워 나가면서, 다른 서버에 또 reqeust해서 채움
+- html뿐만 아니라 json 데이터를 요청하고 response하기도 함. 
+
+
+Go는 백엔드에 특화되어 있음
